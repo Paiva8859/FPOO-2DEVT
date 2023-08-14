@@ -58,7 +58,7 @@ public class App {
                     pesquisa = sc.next();
 
                     for (Carros carros : listaCarros) {
-                        if (pesquisa == carros.getMarca()) {
+                        if (pesquisa.equals(carros.getMarca())) {
                             listar += "-" + carros.getMarca() + " " + carros.getModelo() + " " + carros.getAno() + " "
                                     + carros.getCor();
                             System.out.println(listar);
