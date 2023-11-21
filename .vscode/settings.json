@@ -1,0 +1,11 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\GPDevTardeA\\Downloads\\postgresql-42.5.4.jar"
+    ],
+    "java.project.sourcePaths": [
+        "Serializacao/src",
+        "JDBCTest/src",
+        "jdbctestmaven/src/main/java/app"
+    ]
+}
